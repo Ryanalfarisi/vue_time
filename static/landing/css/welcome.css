@@ -1,0 +1,458 @@
+.navbar {
+  background: none !important;
+}
+
+.navbar::after {
+  background: none !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", "sans-serif" !important;
+  font-style: normal;
+}
+
+.carousel-inner .active {
+  background: none !important;
+}
+
+span {
+  visibility: visible !important;
+}
+
+.card-title {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.fab {
+  position: unset !important;
+}
+
+.facebook-link-color:hover {
+  color: #4267b2;
+  cursor: pointer;
+}
+
+.insta-link-color:hover {
+  cursor: pointer;
+  color: #d62976;
+}
+
+.linkedin-link-color:hover {
+  color: #0e76a8;
+  cursor: pointer;
+}
+
+.youtube-link-color:hover {
+  color: #c4302b;
+  cursor: pointer;
+}
+
+/* =========================================== */
+.pos-rel {
+  position: relative;
+}
+.quote {
+  position: absolute;
+}
+.left-quote {
+  bottom: -124px;
+  left: 33px;
+}
+.right-quote {
+  right: -242px;
+  top: 25px;
+}
+.carousel-control-prev {
+  left: 45px;
+}
+.carousel-control-next {
+  right: 45px;
+}
+.ql-align-right {
+  margin-bottom: 0px !important;
+}
+.heade-content {
+  margin-top: -455px;
+}
+.carousel-indicators {
+  padding-right: 0;
+}
+.download-main-img {
+  width: 100%;
+}
+.features-content-box {
+  margin-top: -723px;
+}
+#reviewsSlider strong.card-title,
+#carouselExampleIndicators strong.card-title {
+  color: #71695a !important;
+}
+#reviewsSlider .card-title,
+#carouselExampleIndicators .card-title {
+  color: #fd9800 !important;
+}
+.back-to-top img {
+  height: 70px;
+  width: 70px;
+}
+.third-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+.text_logo {
+  padding: 50px 0;
+  height: 170px;
+  width: auto;
+}
+.sports-img-pic {
+  width: 20%;
+}
+.form-section-heading {
+  font-size: 28px;
+}
+.fs-15 {
+  font-size: 15px !important;
+}
+.padding-p-0 p {
+  margin: 0;
+}
+.app-features-svg-images img {
+  height: 40px;
+  width: 40px;
+}
+.mt-n2 {
+  margin-top: -0.9rem !important;
+}
+
+figure {
+  margin-bottom: 0px;
+}
+#landing-page {
+  margin-top: 60px;
+}
+
+.vedio-title {
+  height: 475px;
+}
+
+.teamtime-games {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.teamtime-games .img-fluid {
+  height: 60px;
+}
+
+@media (min-width: 1200px) {
+  .header-title-text {
+    padding-left: 120px;
+  }
+  .carousel-control-prev {
+    left: 75px;
+  }
+  .carousel-control-next {
+    right: 75px;
+  }
+}
+@media (max-width: 1200px) {
+  .header-mobile-pic-1 {
+    width: 180px;
+  }
+}
+@media (max-width: 1070px) {
+  .landing-navbar-scroll .nav-link {
+    padding-left: 0 !important;
+  }
+  strong.d-block.game-price-tag {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-mobile-pic {
+    width: 200px;
+    height: 450px;
+  }
+  .header-mobile-pic-1 {
+    width: 130px;
+    height: 470px;
+  }
+  .carousel-control-prev {
+    left: 14px;
+  }
+  .carousel-control-next {
+    right: 14px;
+  }
+}
+
+@media (max-width: 975px) {
+  .navbar {
+    padding-right: 0;
+  }
+  .landing-navbar {
+    right: 3%;
+  }
+  .landing-navbar-scroll {
+    padding-right: 2%;
+  }
+  .brand-logo {
+    height: 40px;
+    margin-top: 0;
+    width: 200px;
+    padding: 0;
+    margin-left: 0;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 0;
+    font-size: 17px;
+  }
+  .header-title-text {
+    font-size: 30px;
+  }
+  .header-title-text .header-main-title {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .download-main-img {
+    width: 100%;
+    height: auto;
+  }
+  .app-feature-mobile-pic {
+    width: auto;
+    height: 400px;
+  }
+  .features-content-box {
+    margin-top: -675px;
+  }
+  .app-features-svg-images {
+    padding: 10px;
+  }
+  app-features-svg-images img {
+    height: 34px;
+    width: auto;
+  }
+  .games-feature-description p {
+    font-size: 0.8rem;
+  }
+  .w-container .align-items-center {
+    align-items: end !important;
+  }
+  .form-sec-mobile-pic {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (width: 768px) {
+  .landpage-header-bg {
+    height: 700px;
+  }
+  .features-content-box {
+    margin-top: -933px;
+  }
+  .header-mobile-pic {
+    width: 180px;
+    height: auto;
+  }
+  .header-mobile-pic-1 {
+    width: 130px;
+  }
+  .navbar-brand {
+    margin-right: 3px;
+  }
+  .nav-item {
+    margin: 0;
+  }
+  .landing-logo {
+    width: 200px;
+    height: auto;
+  }
+  .landing-navbar-scroll {
+    padding-right: 3%;
+  }
+  .nav-link {
+    font-size: 17px;
+  }
+  .heade-content {
+    margin-top: -494px;
+  }
+  .header-title-text .header-main-title {
+    font-size: 40px;
+  }
+  #about-content {
+    padding-bottom: 80px;
+  }
+  .landing-navbar {
+    right: 0;
+  }
+  strong.d-block.game-price-tag {
+    margin: 24px 9px;
+    color: #fdb600;
+    padding: 40px;
+    padding-left: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 164%;
+  }
+}
+@media (max-width: 767.98px) {
+  .features-content-box {
+    margin-top: -848px;
+  }
+  #about-content {
+    padding-bottom: 125px;
+  }
+  #reviews-content {
+    padding-bottom: 40px;
+  }
+  .form-section-draw {
+    height: 800px;
+    clip-path: ellipse(101% 49% at 50% 50%);
+  }
+  .form-section-inner-content {
+    margin-top: -850px;
+  }
+  .heade-content {
+    margin-top: -557px;
+  }
+  .landpage-header-bg {
+    height: 815px;
+    clip-path: ellipse(200% 48% at 50% 50%);
+  }
+  .navbar {
+    background: linear-gradient(180deg, #fdb600 0%, #fd9800 100%) !important;
+    height: 75px;
+  }
+  .app-feature-desktop {
+    height: 450px;
+    width: auto;
+  }
+  .app-feature-converstion {
+    height: 380px;
+    width: auto;
+  }
+  .header-mobile-pic {
+    width: auto;
+  }
+  .app-feature-contents {
+    height: 644px;
+    clip-path: ellipse(101% 49% at 50% 50%);
+  }
+  .form-sec-mobile-pic {
+    width: 230px;
+  }
+  .sports-download-img.hoverme {
+    padding: 5px 0;
+  }
+  .vedio-title {
+    height: 300px;
+  }
+}
+@media (max-width: 760px) {
+  .back-to-top {
+    right: 0px;
+  }
+  .landing-navbar {
+    right: 0;
+  }
+  .back-to-top img {
+    height: 55px;
+    width: 55px;
+  }
+}
+@media (max-width: 600px) {
+  .app-feature-converstion {
+    height: 280px;
+    margin-left: -100px;
+  }
+  .app-feature-desktop {
+    height: 350px;
+  }
+  #feature-content {
+    padding-top: 50px;
+  }
+  #about-content {
+    padding-bottom: 80px;
+  }
+  #businese {
+    padding-top: 1.5rem;
+  }
+  #contact-form-1 {
+    margin-top: 60px;
+  }
+  #contact-form-1.pt-5 {
+    padding-top: 0 !important;
+  }
+  .landpage-header-bg,
+  .logo-list,
+  .navbar,
+  .form-section-draw,
+  .app-feature-contents,
+  .footer-social-bg {
+    margin-left: -4px;
+  }
+  .form-section-draw {
+    clip-path: ellipse(230% 49% at 50% 50%);
+  }
+  .app-feature-contents {
+    clip-path: ellipse(170% 49% at 50% 50%);
+  }
+  .f-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-items: end;
+  }
+  .sports-img-pic {
+    width: 33.33%;
+  }
+  .form-section-draw {
+    height: 900px;
+  }
+  .form-section-inner-content {
+    margin-top: -988px;
+  }
+}
+@media (max-width: 470px) {
+  .app-feature-contents {
+    height: 618px;
+  }
+  .heade-content {
+    margin-top: -606px;
+  }
+  .header-mobile-pic,
+  .header-mobile-pic-1 {
+    height: 360px;
+  }
+  .app-feature-converstion {
+    height: 230px;
+    margin-left: -100px;
+  }
+  .app-feature-desktop {
+    height: 300px;
+  }
+  label.text-white.d-block {
+    font-size: 30px !important;
+  }
+  strong.d-block.game-price-tag {
+    padding-left: 43px;
+  }
+  .vedio-title {
+    height: auto;
+  }
+  .teamtime-games {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 350px) {
+  strong.d-block.game-price-tag {
+    padding-left: 43px;
+    font-size: 16px;
+  }
+}
